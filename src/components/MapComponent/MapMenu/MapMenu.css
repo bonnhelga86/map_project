@@ -1,0 +1,23 @@
+.mapMenuContainer {
+  min-width: 30%;
+}
+
+.mapMenu {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style-type: none;
+}
+
+.mapButton {
+  width: 100%;
+  border: none;
+  background-color: blue;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.activeButton {
+  background-color: green;
+}
